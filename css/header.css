@@ -1,18 +1,18 @@
 .logo {
-    font-family: var(--second-family);
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 133%;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
 }
 
 .logo .accent {
-    font-family: var(--second-family);
+    font-family: "Raleway", sans-serif;;
     font-weight: 700;
     font-size: 18px;
-    line-height: 133%;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
@@ -22,18 +22,31 @@
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #2E2F42;   
 }
 
 .address {
-    font-family: var(--font-family);
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.links:hover,
+.links:focus {
+    color: #404bbf;
+}
+
+.address:hover,
+.address:focus {
+    color: #404bbf;
+}
+
+
 
 

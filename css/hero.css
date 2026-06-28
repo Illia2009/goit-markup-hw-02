@@ -3,10 +3,10 @@
 }
 
 .hero-title {
-    font-family: var(--font-family);
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 107%;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
@@ -14,10 +14,17 @@
 
 .hero-btn {
     background: #4D5AE5;
-    font-family: var(--font-family);
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
     color: #FFFFFF;
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404bbf;
 }
